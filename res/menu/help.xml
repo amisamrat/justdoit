@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:orderInCategory="107"
+        android:title="Search"
+         ></item>
+
+    <item
+        android:id="@+id/ask"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Ask anything??"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="profile"
+        app:showAsAction="always" />
+    <item
+        android:title="feedback"
+        android:id="@+id/feedback"
+        android:visible="true" />
+    <item
+        android:id="@+id/hpage"
+        android:title="Help Page" />
+    <item
+        android:id="@+id/th"
+        android:title="Theme" />
+    <item
+        android:id="@+id/qn"
+        android:title="Quick Note" />
+    <item
+        android:id="@+id/ep"
+        android:title="Edit profile" />
+</menu>
