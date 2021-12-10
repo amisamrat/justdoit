@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.justdoit" >
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Justdoit" >
+        <activity
+            android:name=".tts"
+            android:exported="true" />
+        <activity
+            android:name=".highlight"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA1mF4lLhT2E3b7VsyzL-BRep81KbZ7zSs" />
+
+        <activity
+            android:name=".map2example"
+            android:exported="true" />
+        <activity
+            android:name=".map1example"
+            android:exported="true" />
+        <activity
+            android:name=".editprofile"
+            android:exported="true" />
+        <activity
+            android:name=".quicknote"
+            android:exported="true" />
+        <activity
+            android:name=".deviceinfo"
+            android:exported="true" />
+        <activity
+            android:name=".profile"
+            android:exported="true" />
+        <activity
+            android:name=".trending"
+            android:exported="true" />
+        <activity
+            android:name=".mail"
+            android:exported="true" />
+        <activity
+            android:name=".feedback"
+            android:exported="true" />
+        <activity
+            android:name=".help"
+            android:exported="true"
+            android:label="@string/title_activity_help"
+            android:theme="@style/Theme.Justdoit.NoActionBar" />
+        <activity
+            android:name=".newstab"
+            android:exported="true" />
+        <activity
+            android:name=".datadisplay"
+            android:exported="true" />
+        <activity
+            android:name=".home"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.BATTERY_LOW" />
+                <action android:name="android.intent.action.BATTERY_OKAY" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+                <action android:name="android.intent.action.POWER_USAGE_SUMMARY" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
